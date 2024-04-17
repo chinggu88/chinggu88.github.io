@@ -1,16 +1,22 @@
 {
-    "webcredentials": {
-        "apps": []
-    },
     "applinks": {
         "apps": [],
+        "defaults": {
+            "percentEncoded": false
+        },
         "details": [
             {
                 "appID": "HP48SF6M3S.com.kiatigers.membership",
                 "paths": [
-                    "*"
+                    "*",
+                    "/"
                 ]
             }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "HP48SF6M3S.com.kiatigers.membership"
         ]
     }
 }
